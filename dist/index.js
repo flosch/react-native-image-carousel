@@ -413,7 +413,8 @@ var ImageCarousel = function (_React$Component) {
             contentContainerStyle: contentContainerStyle,
             scrollEnabled: !animating,
             alwaysBounceHorizontal: false,
-            showsHorizontalScrollIndicator: false
+            showsHorizontalScrollIndicator: false,
+            pagingEnabled: true
           },
           this.getChildren().map(function (child, idx) {
             return React.createElement(
